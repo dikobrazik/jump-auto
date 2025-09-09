@@ -2,6 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  padding-bottom: 80px;
 }
 
 .title {
@@ -9,12 +10,12 @@
 }
 
 #background {
-      width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: -1;
-    opacity: 0.3;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.3;
 }
 
 .price {
@@ -34,6 +35,8 @@
 
   justify-content: space-between;
   padding: 8px 16px;
+
+  background-color: var(--bg-color);
 
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
