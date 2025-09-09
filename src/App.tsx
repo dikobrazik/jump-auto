@@ -3,6 +3,7 @@ import { Button } from './components/Button'
 import PhoneIcon from './assets/phone.svg?react';
 import telegramIcon from './assets/telegram.svg';
 import whatsAppIcon from './assets/wa.svg';
+import bgImage from "./assets/bg.jpeg";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <header>
         <img className='logo' src="/logo.png" alt="Jump Auto" srcSet='/logo2x.png 2x' />
       </header>
+
+      <img id='background' src={bgImage} alt="bg image" />
 
       <h1 className='title'>Сел аккумулятор? Помогу прикурить автомобиль в Казани</h1>
 
