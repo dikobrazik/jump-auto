@@ -8,11 +8,27 @@
 
 }
 
+.price {
+  font-size: larger;
+  color: red;
+}
+
 
 .actions {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+
   display: flex;
 
   justify-content: space-between;
+  padding: 8px 16px;
 
-  padding-top: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.actions > * {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
